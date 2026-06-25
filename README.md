@@ -34,7 +34,6 @@ TimeVaryFeat/
 ## Requirements
 
 - Python 3.8+ with PyTorch, NumPy, SciPy, Pandas, Matplotlib, SHAP
-- MATLAB (for `main.m`–`main4.m` visualization scripts)
 - GPU recommended for training (batch size 8, ~120 epochs per config)
 
 ## Usage examples
