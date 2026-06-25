@@ -17,6 +17,7 @@ We triangulate three evidence sources:
 | **Attribution (IG, SHAP)** | Does the network attend to the feature? | 1 backward pass per sample |
 | **Ablation** | Does the feature provide *unique* value? | 1 full training run per config |
 
+```
 ## Directory structure
 TimeVaryFeat/
 │
@@ -30,6 +31,7 @@ TimeVaryFeat/
 │   └── summary_results.csv   #   全实验汇总表
 ├── multi_seed_study.py       # 多种子复制实验 (5 seeds × 5 configs)
 ├── run_shap.py               # SHAP 归因分析 (GradientExplainer)
+```
 
 ## Requirements
 
